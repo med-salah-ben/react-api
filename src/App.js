@@ -20,7 +20,7 @@ function App() {
 // getUsersData()
 useEffect(()=>{
   getUsersData()
-},[])
+},[usersLoad])
   return (
     <div>
       <h1>Hello world!!!</h1>
